@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="//vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 		<!-- Header -->
@@ -58,9 +59,26 @@
 						<p>Worked with a team to build a Chicago-focused transit app.</p>
 					</article>
 					<article class="col-6 col-12-xsmall work-item">
-						<a href="images/fulls/03.jpg" class="image fit thumb"
-							><img src="images/thumbs/03.jpg" alt=""
-						/></a>
+						<video
+							width="320"
+							length="240"
+						    id="newsy-video"
+						    class="video-js"
+						    controls
+						    preload="auto"
+						    poster="images/thumbs/03.jpg"
+						    data-setup='{}'>
+						  <source src="videos/NewsyDemoVideoReduced.mp4" type="video/mp4"></source>
+						<!--   <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+						  <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source> -->
+						  <p class="vjs-no-js">
+						    To view this video please enable JavaScript, and consider upgrading to a
+						    web browser that
+						    <a href="https://videojs.com/html5-video-support/" target="_blank">
+						      supports HTML5 video
+						    </a>
+						  </p>
+						</video>
 						<h3>Newsy</h3>
 						<p>
 							Customizable news app allowing the user to select from a list of non-Western news sources to
@@ -509,5 +527,7 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="//vjs.zencdn.net/7.4.1/video.min.js"></script>
+		</script>
 	</body>
 </html>

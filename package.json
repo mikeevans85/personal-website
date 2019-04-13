@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "v-playback": "^1.0.1",
+    "video.js": "^7.4.1",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
   },
